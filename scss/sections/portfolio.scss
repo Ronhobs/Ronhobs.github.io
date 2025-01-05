@@ -1,3 +1,14 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.portfolio {
+    padding: 4rem 0;
+
+    button {
+        text-transform: capitalize;
+    }
+}
+
 .portfolio-box {
     position: relative;
     width: 100%;
@@ -53,3 +64,4 @@
         }
     }
 }
+
